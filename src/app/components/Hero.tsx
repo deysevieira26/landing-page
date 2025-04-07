@@ -20,7 +20,7 @@ const Hero = () => {
         <a
           href="/curriculo.pdf"
           download
-          className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-400 transition ml-4"
+          className="bg-violet-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-500 transition ml-4"
         >
           Baixar Currículo
         </a>

@@ -49,7 +49,7 @@ interface Project {
           <div className="text-center mt-8">
             <a
               href="/projects"
-              className="bg-pink-400 text-white px-6 py-3 rounded-lg hover:bg-red-500 transition"
+              className="bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition"
             >
               Ver todos os projetos
             </a>

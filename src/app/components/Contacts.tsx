@@ -1,4 +1,4 @@
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -8,61 +8,61 @@ const Contact = () => {
         
         {/* Formulário de Contato */}
         <form className="max-w-xl mx-auto mb-8">
-          <div className="mb-4">
-            <label htmlFor="name" className="block text-sm font-medium mb-1">
-              Nome
-            </label>
-            <input
-              type="text"
-              id="name"
-              className="w-full p-2 rounded-lg border-gray-300 focus:ring focus:ring-blue-500"
-              placeholder="Seu nome"
-            />
-          </div>
-          <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium mb-1">
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              className="w-full p-2 rounded-lg border-gray-300 focus:ring focus:ring-blue-500"
-              placeholder="Seu email"
-            />
-          </div>
-          <div className="mb-4">
-            <label htmlFor="message" className="block text-sm font-medium mb-1">
-              Mensagem
-            </label>
-            <textarea
-              id="message"
-              className="w-full p-2 rounded-lg border-gray-300 focus:ring focus:ring-blue-500"
-              rows={4}
-              placeholder="Sua mensagem"
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-400 transition"
-          >
-            Enviar
-          </button>
-        </form>
+  <div className="mb-4">
+    <label htmlFor="name" className="block text-sm font-medium mb-1">
+      Nome
+    </label>
+    <input
+      type="text"
+      id="name"
+      className="w-full p-2 rounded-lg border border-gray-600 focus:ring focus:ring-blue-500"
+      placeholder="Seu nome"
+    />
+  </div>
+  <div className="mb-4">
+    <label htmlFor="email" className="block text-sm font-medium mb-1">
+      Email
+    </label>
+    <input
+      type="email"
+      id="email"
+      className="w-full p-2 rounded-lg border border-gray-600 focus:ring focus:ring-blue-500"
+      placeholder="Seu email"
+    />
+  </div>
+  <div className="mb-4">
+    <label htmlFor="message" className="block text-sm font-medium mb-1">
+      Mensagem
+    </label>
+    <textarea
+      id="message"
+      className="w-full p-2 rounded-lg border border-gray-600 focus:ring focus:ring-blue-500"
+      rows={4}
+      placeholder="Sua mensagem"
+    ></textarea>
+  </div>
+  <button
+    type="submit"
+    className="bg-pink-400 text-white px-6 py-3 rounded-lg hover:bg-red-500 transition"
+  >
+    Enviar
+  </button>
+</form>
 
         {/* Links de Redes Sociais */}
         <div className="text-center">
           <p className="text-lg mb-4">Siga-me nas redes sociais:</p>
           <div className="flex justify-center space-x-4">
             <a
-              href="https://github.com/seu-usuario"
+              href="https://github.com/deysevieira26"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black hover:text-red-400 transition"
+              className="text-black hover:text-violet-700 transition"
             >
               <FaGithub className="text-2xl" />
             </a>
             <a
-              href="https://linkedin.com/in/seu-usuario"
+              href="https://linkedin.com/in/deyse-vieira-santos"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-blue-600 transition"
