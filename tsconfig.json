@@ -28,7 +28,7 @@
     },
     "typeRoots": [
       "./node_modules/@types",
-      "./src/@types"  // Correção aqui para garantir que a pasta @types seja reconhecida
+      "./src/@types"
     ],
     "plugins": [
       {
@@ -41,7 +41,7 @@
     "src/**/*.ts", 
     "src/**/*.tsx",
     ".next/types/**/*.ts",
-    "src/@types/global.d.ts"  // Confirme se esse caminho está correto
+    "src/@types/global.d.ts"
   ],
   "exclude": [
     "node_modules"

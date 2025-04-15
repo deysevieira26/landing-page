@@ -1,4 +1,5 @@
 const Header = () => {
+
   return (
     <header className="bg-pink-200 text-pink-500">
       <div className="container mx-auto flex justify-between items-center p-5">
@@ -56,3 +57,5 @@ const Header = () => {
 };
 
 export default Header;
+
+    
