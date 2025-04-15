@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".", 
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@types/*": [
+        "src/@types/*"
+      ]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"  // Correção aqui para garantir que a pasta @types seja reconhecida
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "src/**/*.ts", 
+    "src/**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/@types/global.d.ts"  // Confirme se esse caminho está correto
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
