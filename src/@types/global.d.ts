@@ -1,7 +1,7 @@
 declare global {
-    interface Window {
-      VLibras: any;  // Declarando que existe a propriedade `VLibras` no objeto `window`
-    }
+  interface Window {
+    VLibras: unknown;  
   }
-  
-  export {};
+}
+
+export {};
