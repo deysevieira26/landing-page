@@ -2,11 +2,6 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import './globals.css'
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 6a8b5a35deb6e330a9bbb02f9eaa1a18c454448d
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,9 +20,8 @@ export default function RootLayout({
       </body>
     </html>
   );
-<<<<<<< HEAD
+
 }
 
-=======
-}
->>>>>>> 6a8b5a35deb6e330a9bbb02f9eaa1a18c454448d
+
+
