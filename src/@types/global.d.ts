@@ -1,6 +1,6 @@
 declare global {
   interface Window {
-    VLibras: unknown;  
+    VLibras: unknown;  // Declarando que existe a propriedade `VLibras` no objeto `window`
   }
 }
 
