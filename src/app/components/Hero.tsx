@@ -18,7 +18,7 @@ const Hero = () => {
           Veja meus projetos
         </a>
         <a
-          href="/curriculo.pdf"
+          href="/Curriculo.pdf"
           download
           className="bg-violet-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-500 transition ml-4"
         >
